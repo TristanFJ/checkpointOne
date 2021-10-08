@@ -3,15 +3,15 @@
 }
 
 a {
-  color: white;
+  color: black;
 }
 
 a:active {
-  color: var(--primary-color);
+  color: white;
 }
 
 a:hover {
-  color: black;
+  color: white;
 }
 
 .bg-primary {
