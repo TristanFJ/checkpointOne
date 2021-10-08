@@ -1,0 +1,96 @@
+:root {
+  --primary-color: hsl(164, 92%, 35%);
+}
+
+a {
+  color: white;
+}
+
+a:active {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: black;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.img {
+  background-image: url("https://s3-alpha-sig.figma.com/img/72a0/f360/11de44f46d71c4f15f35d5a135e50322?Expires=1634515200&Signature=HCdAhS4QwI86JvwSfOlELunfiLfgHemwYuERV52rv-c9V2f84hQfBIEA~8lubclV0zFNZQkHvakLXiphSenygowygmlUfXSlbIeQ6xKm9PeIGL89T4LNPFu1ilEFXm-1CjtmN81RlmjWGfgeSTI0LSdpFGcU8c1qNEoh-FnmvEb303W8aeQjUUWGp8rfb25pg9~u87CTCK-bfb0M8DgQfkx3x-7I8vfuCcaF71A31Wu5PHkCW3YuSx7CDq3qfeaRpFZOSw~gexXXYKMku-QpkR2-FTKaUJ2o~DFHfZ8ht6MbtR1iZb3Ul5s0JHGomxwlI9X1dhC1zl~eM2C7Rxfg~Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  /* background-position: center; */
+  background-size: cover;
+  height: 50vh;
+}
+
+.img2 {
+  background-image: url("https://s3-alpha-sig.figma.com/img/1e2b/d983/c4e511240ca8b08990a19e419d85e1a8?Expires=1634515200&Signature=HhMHwEsKd7m13BpzW4Jc9kyUkbO5opATlp5aP~5fiz~ngYH7gJUDxRZTPmI4kxwdr7R-E7tkRdWaBBjXJOI1nWxsv3SaiPK5QqXsvRk~IxtMbnP3dje66GWg6KdT5u6YzDCmxmwYCdKesmAXIkf7ckd5bk-EshJzHzKrA9TTYcdml6zlpNFvHtNCKgtaEtOlZ2gOjjJR0k05FxNkS1X0ODCg6x~NZ~0vDYVqAfwLQzC5a9QJqeyYUQcLTouNRwWNmHVxyL4TJUgzW4D1UivuDGj8pB4Ft-JE3A~6Gur8A8yaSNICdOg93Ji2wJRynQ2~QW-Alwe07cEvUoNzKOHQvQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  background-size: cover;
+
+  height: 35vh;
+  width: 25vh;
+
+}
+
+
+.nav {
+  background-color: var(--primary-color);
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.title {
+  font-family: 'Playfair Display', serif;
+  text-shadow: 1px 1px 1px black;
+}
+
+
+.image-text {
+  max-width: 33vw;
+}
+
+.image-sub-text {
+  max-width: 25vw;
+
+}
+
+.card-subtle {
+  text-shadow: 2px 2px 2px black;
+}
+
+.main-card {
+  height: 15rem;
+}
+
+.card-text {
+  color: var(--primary-color)
+}
+
+
+@media (min-width: 768px) {
+
+  .card-transform {
+    transform: translateY(10vh);
+  }
+
+
+}
+
+@media (max-width: 768px) {
+
+  #about {
+    order: 2;
+  }
+
+  .first-card {
+    order: -1;
+  }
+
+  .card-transform {
+    order: -1;
+  }
+}
