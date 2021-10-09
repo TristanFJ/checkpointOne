@@ -93,4 +93,13 @@ a:hover {
   .card-transform {
     order: -1;
   }
+
+  .img {
+    background-image: url("https://s3-alpha-sig.figma.com/img/72a0/f360/11de44f46d71c4f15f35d5a135e50322?Expires=1634515200&Signature=HCdAhS4QwI86JvwSfOlELunfiLfgHemwYuERV52rv-c9V2f84hQfBIEA~8lubclV0zFNZQkHvakLXiphSenygowygmlUfXSlbIeQ6xKm9PeIGL89T4LNPFu1ilEFXm-1CjtmN81RlmjWGfgeSTI0LSdpFGcU8c1qNEoh-FnmvEb303W8aeQjUUWGp8rfb25pg9~u87CTCK-bfb0M8DgQfkx3x-7I8vfuCcaF71A31Wu5PHkCW3YuSx7CDq3qfeaRpFZOSw~gexXXYKMku-QpkR2-FTKaUJ2o~DFHfZ8ht6MbtR1iZb3Ul5s0JHGomxwlI9X1dhC1zl~eM2C7Rxfg~Q__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+    /* background-position: center; */
+    background-size: cover;
+    height: 80vh;
+  }
+
+
 }
